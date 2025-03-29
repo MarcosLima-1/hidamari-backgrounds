@@ -27,7 +27,7 @@ function RouteComponent() {
     <section style={{ backgroundColor: bgColor }} className='h-svh w-full bg-black'>
       <Squares speed={0.5} squareSize={40} direction='diagonal' borderColor={borderColor} />
       <div className='absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2'>
-        {text && <FuzzyText fontSize={`${fontSize}px`}>Markin Dev</FuzzyText>}
+        {text && <FuzzyText fontSize={`${fontSize}px`}>{text}</FuzzyText>}
       </div>
     </section>
   )
