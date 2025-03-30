@@ -5,6 +5,7 @@ import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/hidamari-backgrounds',
   plugins: [
     react(),
     tailwindcss(),
